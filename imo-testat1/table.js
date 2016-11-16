@@ -1,3 +1,5 @@
+//imo
+
 var updateInterval = 2000;
 var tbody = document.querySelectorAll("#trans1 tbody")[0];
 
