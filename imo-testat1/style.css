@@ -1,0 +1,149 @@
+/* menu */
+
+body {
+	font-family: sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+menu {
+	position: fixed;
+	display: block;
+		
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	
+	width: 15%;
+	height: 100%;
+	
+	
+	margin: 0px;
+	padding: 0px;
+	
+	z-index: 100;
+	
+	background: #F68567;
+	box-shadow: 0px 0px 10px 0px black;
+}
+
+main {
+	position: absolute;
+	right: 0%;
+	display: block;
+	width: 85%;
+	height: 100%;
+	
+	background: #C1DD89;
+}
+
+
+
+/* menu li */
+
+li {
+	padding: 5px 10px;
+}
+
+li a {
+	color: white;
+	transition: color 0.5s;
+}
+
+li a:visited {
+	color: black;
+	/*transition: color 0.5s;*/
+}
+
+li a:hover {
+	color: gray;
+	transition: color 0.5s;
+}
+
+li a:active {
+	color: red;
+	transition: color 0.01s;
+}
+
+
+
+/* section */
+
+main {
+	overflow: hidden;
+	
+}
+
+main section {
+	position: absolute;
+	right: 0%;
+	display: block;
+	height: 100%;
+	width: 100%;
+	right: 100%;
+	
+	transition: 500ms right ease-out;
+	
+	overflow: auto;
+}
+
+main .active {
+	display: block;
+	z-index: 5;
+	width: 100%;
+	right: 0%;
+	
+	transition: 500ms right ease-out;
+	
+	box-shadow: 10px 0px 50px 0px black;
+	
+	
+}
+
+#trans1 {
+	background: #96D1F3;
+}
+
+#trans2 {
+	background: #AC8BC0;
+}
+
+main section * {
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+
+
+/* table */
+
+table {
+	margin-top: 2%;
+	background: #879BCE;
+}
+
+table, td, th {
+	border: black 1px solid;
+	padding: 10px;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+th {
+	color: black;
+	background: #FEC679;
+}
+
+td {
+	color: #F9F18C;
+}
+
+tr:hover {
+	background: #D2D7ED;
+	transition: background 1000ms ease-out;
+}
+
+tr {
+	background: #879BCE;
+	transition: background 1500ms ease-out;
+}
